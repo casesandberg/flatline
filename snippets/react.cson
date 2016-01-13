@@ -1,0 +1,40 @@
+'.source.js':
+  'React Class':
+    'prefix': 'class',
+    'body': """
+            'use strict';
+            import React from 'react';
+            import ReactCSS from 'reactcss';
+            export class ${1} extends React.Component {
+              classes() {
+                return {
+                  'default': {
+                    ${2}: {
+                      ${4}
+                    },
+                  },
+                };
+              }
+              render() {
+                return (
+                  <div is="${2}">${3:$2}</div>
+                );
+              }
+            }
+            export default ${1};
+            """
+
+  'React Class (Bare)':
+    'prefix': 'classbare',
+    'body': """
+            'use strict';
+            import React from 'react';
+            export class ${1} extends React.Component {
+              render() {
+                return (
+                  ${2}
+                );
+              }
+            }
+            export default ${1};
+            """

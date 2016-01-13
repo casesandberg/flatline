@@ -1,0 +1,13 @@
+{
+  "name": "dixie",
+  "version": "0.0.1",
+  "description": "I never did like to do anything simple when I could do it ass-backwards",
+  "repository": "https://github.com/casesandberg/wintermute",
+  "license": "MIT",
+  "author": "case <case@casesandberg.com>",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
