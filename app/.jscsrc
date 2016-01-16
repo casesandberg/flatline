@@ -1,0 +1,6 @@
+{
+  "preset": "airbnb",
+  "excludeFiles": ["dist/**", "node_modules/**", "jspm_packages/**", "config.js"],
+  "disallowQuotedKeysInObjects": null,
+  "validateQuoteMarks": null
+}
