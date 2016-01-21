@@ -1,0 +1,12 @@
+'.source.js':
+  'Default Import':
+    'prefix': 'im',
+    'body': """
+            import ${1} from '${2}';
+            """
+
+  'Import Lodash':
+    'prefix': 'i_',
+    'body': """
+            import _ from 'lodash';
+            """
