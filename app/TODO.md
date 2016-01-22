@@ -1,0 +1,5 @@
+- npm `dist` command
+  - Clear `dist`
+  - `jspm bundle src/index.js dist/bundle.js`
+  - Move `config.js`
+  - Move `index.html` and transform it

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "bundle": "jspm bundle docs/index.js  build.js"
+    "bundle": "jspm bundle src/index.js dist/bundle.js",
+    "dist": "echo \"Check TODO.md\" && exit 1"
   },
   "repository": {
     "type": "git",
