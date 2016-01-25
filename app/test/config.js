@@ -9,6 +9,7 @@ import chai from 'chai';
 import spies from 'chai-spies';
 
 chai.use(spies);
-testdom('<html><body></body></html>')
+testdom('<html><body></body></html>');
+const expect = chai.expect;
 
-export { React, ReactDOM, ReactDOMServer, TestUtils, expect: chai.expect, chai, spies };
+export { React, ReactDOM, ReactDOMServer, TestUtils, expect, chai, spies };
