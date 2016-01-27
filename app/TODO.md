@@ -1,6 +1,7 @@
 - npm `dist` command
   - Clear `dist`
   - `jspm bundle src/index.js dist/bundle.js`
+  - Move `jspm_packages/system.js`
   - Move `config.js`
   - Move `index.html` and transform it
 
@@ -10,3 +11,5 @@
 
 - npm `tdd` command
   - Watch `./test/**/*` and re-run test command
+
+- Import normalize via `jspm` and include in `Project`
