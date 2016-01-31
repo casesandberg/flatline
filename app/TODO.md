@@ -13,3 +13,9 @@
   - Watch `./test/**/*` and re-run test command
 
 - Import normalize via `jspm` and include in `Project`
+
+- Have yeoman ask if `src` or `docs`
+  - change html import file path
+  - change dist to docs
+  - add lib build as dist
+  - change up tests
