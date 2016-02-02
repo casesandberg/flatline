@@ -1,1 +1,2 @@
 - Fix `html` snippets
+- Check `shortid` snippet to make sure the import is correct

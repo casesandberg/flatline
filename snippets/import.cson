@@ -10,3 +10,9 @@
     'body': """
             import _ from 'lodash';
             """
+
+  'Import Shortid'
+    'prefix': 'id',
+    'body': """
+            import { generate as uuid } from 'shortid';
+            """
