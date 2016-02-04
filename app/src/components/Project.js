@@ -8,6 +8,7 @@ class Page extends React.Component {
     return {
       'default': {
         page: {
+          padding: '20px',
         },
       },
     };
