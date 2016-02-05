@@ -5,15 +5,6 @@
   - Move `config.js`
   - Move `index.html` and transform it
 
-- npm `test` command
-  - Run chai specs with babel
-  - Look for cool reporter
-
-- npm `tdd` command
-  - Watch `./test/**/*` and re-run test command
-
-- Import normalize via `jspm` and include in `Project`
-
 - Have yeoman ask if `src` or `docs`
   - change html import file path
   - change dist to docs
