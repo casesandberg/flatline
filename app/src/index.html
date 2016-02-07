@@ -6,8 +6,6 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"> -->
   </head>
   <body>
     <div id="root" />
@@ -15,17 +13,7 @@
     <script type="text/javascript" src="../jspm_packages/system.js"></script>
     <script type="text/javascript" src="../config.js"></script>
     <script type="text/javascript">
-      var hotReload;
-      if (location.origin.match(/localhost/)) {
-        System.trace = true;
-        hotReload = System.import('capaj/systemjs-hot-reloader').then((reload) => {
-          new reload.default(`http://localhost:${ window.location.port }`);
-        });
-      }
-
-      Promise.resolve(hotReload).then(() => {
-        System.import('./index.js');
-      });
+      System.import('./index.js');
     </script>
   </body>
 </html>

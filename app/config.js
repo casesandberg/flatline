@@ -1,3 +1,4 @@
+System.trace = true;
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
@@ -358,4 +359,7 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     }
   }
+});
+System.import('capaj/systemjs-hot-reloader').then((reload) => {
+  new reload.default(`http://localhost:${ window.location.port }`);
 });
