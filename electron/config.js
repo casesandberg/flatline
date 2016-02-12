@@ -1,6 +1,6 @@
 System.trace = true;
 System.config({
-  baseURL: "/",
+  baseURL: "../",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
