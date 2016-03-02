@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-const httpServer = require('http-server');
-const socketEmitter = require('chokidar-socket-emitter');
+const httpServer = require('http-server')
+const socketEmitter = require('chokidar-socket-emitter')
 
-const port = process.argv[2] || 8090;
+const port = process.argv[2] || 8090
 
 const server = httpServer.createServer({
   cache: -1,
@@ -12,9 +12,9 @@ const server = httpServer.createServer({
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Credentials': 'true',
   },
-});
+})
 
-socketEmitter({ app: server.server });
+socketEmitter({ app: server.server })
 
-server.listen(port);
-console.log(`http://localhost:${ port }`);
+server.listen(port)
+console.log(`http://localhost:${port}`)

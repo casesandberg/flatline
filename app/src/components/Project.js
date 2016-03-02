@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-import React from 'react';
-import ReactCSS from 'reactcss';
+import React from 'react'
+import ReactCSS from 'reactcss'
 
 class Page extends React.Component {
   classes() {
@@ -11,7 +11,7 @@ class Page extends React.Component {
           padding: '20px',
         },
       },
-    };
+    }
   }
 
   render() {
@@ -19,8 +19,8 @@ class Page extends React.Component {
       <div is="page">
         Project
       </div>
-    );
+    )
   }
-};
+}
 
-export default ReactCSS(Page);
+export default ReactCSS(Page)
